@@ -1,0 +1,21 @@
+/* import fonts */
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: oswald;
+    src: url(../fonts/static/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: GreatVibes;
+    src: url(../fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: VarelRound;
+    src: url(../fonts/Varela_Round/VarelaRound-Regular.ttf);
+}

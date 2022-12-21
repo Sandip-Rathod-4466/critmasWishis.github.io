@@ -1,0 +1,151 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .carousel-inner .carousel-item .carousel-caption h1{
+        font-size: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .navbar{
+        background-color: var(--yellow);
+        text-align: center;
+    }
+    .navbar .nav-link{
+        color: black !important;
+        line-height: 2;
+    }
+    .carousel-inner .carousel-item .carousel-caption{
+        bottom: 10%;
+        left: 15%;
+        text-align: left;
+       }
+       .carousel-inner .carousel-item .carousel-caption h1{
+        font-size: 2.5rem;
+        color: var(--yellow);
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    .carousel-inner .carousel-item .carousel-caption h2{
+        font-size: 1.5rem;
+        color: var(--yellow);
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 0.625rem;
+        color: var(--yellow);
+        text-transform: capitalize;
+        margin: 10px 0;
+    }
+    .deal_box .deal_box_details{
+        position: absolute;
+        z-index: 10;
+        top: 10%;
+        left: 50%;
+    }
+    .deal_box .deal_box_details h2{
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .deal_box .deal_box_details button{
+        font-size: 15px;
+        padding: 2px 4px;
+    }
+}
+
+    /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .carousel{
+        margin-top: 5rem;
+    }
+    .carousel-inner .carousel-item .carousel-caption h1{
+        font-size: 2.5rem;
+        color: var(--yellow);
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    .carousel-inner .carousel-item .carousel-caption h2{
+        font-size: 1.5rem;
+        color: var(--yellow);
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 0.625rem;
+        color: var(--yellow);
+        text-transform: capitalize;
+        margin: 10px 0;
+    }
+    .deal_box .deal_box_details{
+        position: absolute;
+        z-index: 10;
+        top: 14%;
+        left: 50%;
+    }
+    .deal_box .deal_box_details h2{
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .deal_box .deal_box_details button{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
+    .navbar .navbar-brand img{
+        width: 180px;
+    }
+    .carousel{
+        margin-top: 5.5rem;
+    }   
+    .carousel-inner .carousel-item .carousel-caption{
+        bottom: 10px;
+    }
+
+       .carousel-inner .carousel-item .carousel-caption h1{
+        font-size: 1rem;
+        color: var(--yellow);
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    .carousel-inner .carousel-item .carousel-caption h2{
+        font-size: 0.625rem;
+        color: var(--yellow);
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 8px;
+        color: var(--yellow);
+        text-transform: capitalize;
+        margin: 8px 0;
+    }
+    .carousel-inner .carousel-item .carousel-caption button{
+        font-size: 10px;
+        padding: 5px 12px;
+    }
+    .deal_box .deal_box_details h2{
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .deal_box .deal_box_details p{
+        font-size: 10px;
+    }
+    .deal_box .deal_box_details button{
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+   
+}
